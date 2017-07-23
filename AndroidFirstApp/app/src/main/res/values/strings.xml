@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ToDoApp</string>
+    <string name="submit_label">Submit</string>
+    <string name="enter_any_text_label">Enter any text</string>
+</resources>

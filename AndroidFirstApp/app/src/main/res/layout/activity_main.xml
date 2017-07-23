@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.todo.todoapp.MainActivity">
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onSubmit"
+        android:text="@string/submit_label"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="231dp"
+        android:layout_below="@+id/etWords"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/etWords"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enter_any_text_label"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="165dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp" />
+
+    <TextView
+        android:id="@+id/tvLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSubmit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:text="Nothing Yet"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="323dp" />
+
+</android.widget.RelativeLayout>
